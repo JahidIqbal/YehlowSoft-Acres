@@ -1,0 +1,50 @@
+.box {
+    padding: 60px 0px;
+    height: 100vh;
+}
+
+.box-part {
+    background: #F0FFFF;
+    padding: 60px 10px;
+    margin: 10px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px
+}
+
+.box-part:hover {
+    background: #000000
+}
+
+.box-part:hover .title,
+.box-part:hover .text,
+.box-part:hover a {
+    color: #FFF;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out
+}
+
+.text {
+    margin: 20px 0px
+}
+
+.underline {
+    text-decoration: none; 
+    position: relative; 
+  }   
+
+ .underline:after {
+     position: absolute;
+     content: '';
+     height: 2px;
+     bottom: -4px; 
+     margin: 0 auto;
+       left: 0;
+     right: 0;
+       width: 16%;
+       background: linear-gradient(to right, #00d2ff, #3a7bd5);
+      
+ }
+  
+  
