@@ -6,7 +6,7 @@ const Certifications = () => {
     return (
         <div className="box">
             <h1 className=" fw-bolder text-uppercase w-100 mt-5 text-center underline mt-2" >Certifications</h1>
-            <div className="container">
+            <div className="">
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div className="box-part text-center"> <i className='fas fa-user-lock fs-1 text-info' aria-hidden="true"></i>

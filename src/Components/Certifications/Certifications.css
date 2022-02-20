@@ -1,6 +1,7 @@
 .box {
-    padding: 60px 0px;
-    height: 100vh;
+    /* padding: 60px 0px; */
+    /* height: 100vh; */
+    margin:  0 20px 0 20px;
 }
 
 .box-part {
@@ -43,7 +44,8 @@
        left: 0;
      right: 0;
        width: 16%;
-       background: linear-gradient(to right, #00d2ff, #3a7bd5);     
+       background: linear-gradient(to right, #00d2ff, #3a7bd5);
+     
  }
   
   
