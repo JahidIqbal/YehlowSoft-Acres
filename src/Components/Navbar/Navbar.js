@@ -19,9 +19,6 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <NavLink to="/home" className="nav-link text-info">Home</NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink to="/about" className="nav-link text-info">About us</NavLink>
-                            </li>
 
                             <li className="nav-item">
                                 <span className="nav-link text-info">{user.email && <li className="nav-item">
