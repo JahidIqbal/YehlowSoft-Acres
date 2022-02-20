@@ -6,10 +6,6 @@ import Services from '../Services/Services';
 import TeamMembers from '../TeamMembers/TeamMembers';
 import Testimonials from '../Testimonials/Testimonials';
 
-
-
-
-
 const Home = () => {
     return (
         <div>

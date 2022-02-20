@@ -23,7 +23,6 @@ function App() {
             <PrivateRoute path="/buynow/:id">
               <ServiceDetails />
             </PrivateRoute>
-
             <Route exact path="/login">
               <Login />
             </Route>
