@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-// import useAuth from '../../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
+import './Navbar.css';
 
 
 const Navbar = () => {
-    // const { user, logOut } = useAuth();
+    const { user, logOut } = useAuth();
     return (
         <div className='bg-dark'>
             <nav className="navbar navbar-expand-sm navbar-dark navbar-custom">
@@ -21,31 +22,31 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <NavLink to="/about" className="nav-link text-info">About us</NavLink>
                             </li>
-                            {/* 
+
                             <li className="nav-item">
-                                <span className="nav-link text-white">{user.email && <li className="nav-item">
+                                <span className="nav-link text-info">{user.email && <li className="nav-item">
                                     <p>{user.displayName}</p>
                                 </li>}</span>
                             </li>
                             <li className="nav-item">
-                                <span className="nav-link text-white">{user.email && <li className="nav-item">
+                                <span className="nav-link text-info">{user.email && <li className="nav-item">
                                     <img className='user' src={user.photoURL} alt="" />
                                 </li>}</span>
                             </li>
                             <li className="nav-item">
-                                <li className="nav-link text-white">{
+                                <li className="nav-link text-info">{
                                     user.email ? <li>
                                         <li className="nav-item">
                                             <button onClick={logOut} type="button" className="btn btn-sm btn-light">Logout</button>
                                         </li>
                                     </li>
                                         :
-                                        <NavLink to="/register" className="nav-item">
-                                            <button type="button" className="btn btn-sm btn-light">Login</button>
+                                        <NavLink to="/login" className="nav-item">
+                                            <button type="button" className="btn btn-sm btn-light text-info">Login</button>
                                         </NavLink>
 
                                 }</li>
-                            </li> */}
+                            </li>
 
                         </ul>
                     </div>
