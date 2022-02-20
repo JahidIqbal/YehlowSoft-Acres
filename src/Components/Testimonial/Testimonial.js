@@ -4,12 +4,12 @@ const Testimonial = ({ test }) => {
     const { name, address, description, img } = test;
 
     return (
-        <div class="item">
-            <div class="shadow-effect">
-                <img class="img-circle" src={img} alt="" />
+        <div className="item">
+            <div className="shadow-effect">
+                <img className="img-circle" src={img} alt="" />
                 <p>{description}</p>
             </div>
-            <div class="testimonial-name text-info">
+            <div className="testimonial-name text-info">
                 <h5>{name}</h5>
                 <small>{address}</small>
             </div>

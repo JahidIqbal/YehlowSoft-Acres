@@ -69,13 +69,13 @@ const Testimonials = () => {
 
                             {
                                 review.length === 0 ?
-                                    <div class="item">
-                                        <div class="shadow-effect">
-                                            <img class="img-circle" src={userPic} alt="" />
+                                    <div className="item">
+                                        <div className="shadow-effect">
+                                            <img className="img-circle" src={userPic} alt="" />
 
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                                         </div>
-                                        <div class="testimonial-name">
+                                        <div className="testimonial-name">
                                             <h5>Rajon Rony</h5>
                                             <small>ITALY</small>
                                         </div>
