@@ -11,7 +11,6 @@ const ServiceDetails = () => {
             .then((data) => {
                 console.log(data);
                 const foundService = data.filter(detail => detail.id == id)
-                console.log(foundService);
                 setServiceDetails(foundService);
             })
     }, [id])
