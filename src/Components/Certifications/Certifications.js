@@ -33,6 +33,30 @@ const Certifications = () => {
                             <div className="text"> <span>We got certification for best Quality acres.</span> </div> <Link to="/" className='text-decoration-none text-info'>Learn More</Link>
                         </div>
                     </div>
+                    <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div className="box-part text-center"> <i className="fas fa-paint-brush fs-1 text-info" aria-hidden="true"></i>
+                            <div className="title">
+                                <h3>Interior Design</h3>
+                            </div>
+                            <div className="text"> <span>We got certification for best Interior Designes.</span> </div> <Link to="/" className='text-decoration-none text-info'>Learn More</Link>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div className="box-part text-center"> <i className="fas fa-screwdriver fs-1 text-info" aria-hidden="true"></i>
+                            <div className="title">
+                                <h3>Consulting</h3>
+                            </div>
+                            <div className="text"> <span>We got certification for best Consulting.</span> </div> <Link to="/" className='text-decoration-none text-info'>Learn More</Link>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div className="box-part text-center"> <i className="fas fa-car fs-1 text-info" aria-hidden="true"></i>
+                            <div className="title">
+                                <h3>Car Parking</h3>
+                            </div>
+                            <div className="text"> <span>We got certification for Car Parking facilities.</span> </div> <Link to="/" className='text-decoration-none text-info'>Learn More</Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
